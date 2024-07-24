@@ -1,0 +1,221 @@
+body {
+    margin: auto;
+    width: 100%;
+    margin-top: 60px;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+dk {
+    font-weight: bold;
+}
+
+.histogram-label {
+    font-size: .8em;
+}
+
+.pass-through {
+    pointer-events: none;
+}
+
+#textual h4 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.keyPoint {
+    margin-right: 10px;
+}
+
+#legend-menu h5 {
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.deleteFilterMark {
+    cursor: pointer;
+}
+
+#tabs > li > a {
+    color: grey;
+    font-size: .8em;
+    line-height: 1.1;
+    padding: 10px 13px;
+}
+
+#slide-date {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: .9em;
+}
+
+.hidden-stuff {
+    visibility: hidden;
+    /* display: none; */
+}
+
+#slider-and-info input {
+    margin-bottom: 5px;
+}
+
+#tabs {
+    margin-bottom: 3px;
+}
+
+#original-url {
+    font-size: .8em;
+}
+
+.cardinal-label {
+    font-size: .8em;
+}
+
+
+#legend-menu .selectKeyPoint circle {
+    fill: none;
+    stroke: grey;
+}
+
+#legend-menu .selected circle {
+    fill: grey;
+}
+
+
+#legend-menu h5 {
+    display: inline;
+}
+
+#legend-menu .selectKeyPoint {
+    margin-left: 7px;
+    padding-top: 1px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    padding: 1em;
+    font-size: 16px;
+}
+
+dd {
+    font-size: 16px;
+}
+
+#demo-button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/*** GRID ***/
+
+#demo-button {
+    grid-area: tutorial;
+}
+
+#title {
+    grid-area: header;
+}
+
+#filter-selection-menu {
+    grid-area: filters;
+}
+
+
+#legend-menu {
+    grid-area: legend;
+}
+
+.dashboard-container {
+    grid-area: components;
+}
+
+#elevation {
+    grid-area: elevation;
+}
+
+#polar {
+    grid-area: polar;
+}
+
+#month {
+    grid-area: month;
+}
+
+#textual {
+    grid-area: textual;
+}
+
+#dangers {
+    grid-area: dangers;
+}
+
+#activities {
+    grid-area: activities;
+}
+
+#years {
+    grid-area: years;
+}
+
+#map-widget {
+    grid-area: map;
+}
+
+#textual {
+    grid-area: textual;
+}
+
+/*** RESPONSIVE GRID ***/
+
+h1 {
+    font-size: 2em;
+}
+
+/* For devices larger than 550px */
+@media (min-width: 700px) {
+    .explore-container {
+        display: grid;
+        grid-gap: 1em;
+        padding-left: .5em;
+        padding-right: .5em;
+        grid-template-columns: 200px auto 200px;
+        grid-template-rows: auto 2em auto;
+        grid-template-areas: 
+            "header   header     header"
+            "tutorial components legend"
+            "filters  components legend";
+    }
+
+    .dashboard-container {
+        display: grid;
+        grid-gap: 1em .2em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 25% auto 25% auto;
+        grid-template-areas: 
+            "elevation polar      month"
+            "textual   textual    textual"
+            "dangers   activities years"
+            "map       map        map";
+    }
+
+    #textual { 
+        display: grid;
+        grid-gap: .2em;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
