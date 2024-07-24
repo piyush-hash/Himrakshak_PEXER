@@ -1,0 +1,9 @@
+.jekyll-metadata
+.DS_Store
+.ipynb_checkpoints/
+data/slf/
+__pycache__/
+Gemfile.lock
+_site/
+
+
