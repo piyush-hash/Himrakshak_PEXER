@@ -7,6 +7,10 @@
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
+![GitHub stars](https://img.shields.io/github/stars/piyush-hash/Himrakshak_PEXER?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/piyush-hash/Himrakshak_PEXER?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/piyush-hash/Himrakshak_PEXER?style=flat-square)
+
 **An intelligent emergency response and coordination platform for rapid disaster management**
 
 </div>
